@@ -236,3 +236,41 @@ body input[type='radio'] {
         opacity: 1;
     }
 }
+
+/* max-width 768px */
+
+@media (max-width: 768px) {
+
+    .slide-text {
+        font-size: 1rem;
+    }
+
+    .controls {
+        justify-content: center;
+        top: -8%;
+        left: 0;
+    }
+
+    .slide-img {
+        margin-bottom: 15%;
+    }
+
+    .slide-img img {
+        border-radius: 1rem;
+    }
+
+    .slide {
+        border: 0.1rem solid #fff;
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+
+    .slide-label-1,
+    .slide-label-2,
+    .slide-label-3,
+    .slide-label-4 {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+}
