@@ -100,7 +100,7 @@ body {
     display: flex;
     position: relative;
     width: 15%;
-    top: -3vh;
+    top: -5vh;
     left: 27vw;
 }
 
@@ -240,7 +240,7 @@ body input[type='radio'] {
 
 @media (max-width: 1800px) {
     .controls {
-        left: 13vw;
+        left: 12vw;
     }
 }
 
