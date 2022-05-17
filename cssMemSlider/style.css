@@ -237,6 +237,13 @@ body input[type='radio'] {
     }
 }
 
+@media (max-width: 1800px) {
+    .controls {
+        left: 13vw;
+    }
+}
+
+
 /* max-width 768px */
 
 @media (max-width: 768px) {
